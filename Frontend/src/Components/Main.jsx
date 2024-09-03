@@ -4,9 +4,9 @@ import Navbar from './Navbar';
 import Project from './Project';
 import Skill from './Skill';
 import WorkExp from './WorkExp';
-import Contact from './Contact';
 import Headroom from "react-headroom";
 import { Element } from 'react-scroll';
+import Contact from './Contact';
 
 const Main = () => {
     return (
