@@ -1,14 +1,15 @@
 import React from 'react';
 import Navbar from './Navbar';
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
     return (
         <div className='py-[3rem] md:pt-[2.8rem]'>
             {/* Heading */}
             <div className=' px-[3rem] md:px-[5rem] pb-[2rem] mt-[2rem]'>
-                <p className='w-[35rem] text-[2.2rem] md:w-[50rem] md:text-[2.5rem] leading-[2.9rem]  md:leading-[3.5rem] font-montserrat font-black'>SOFTWARE <span className="text-[2.2rem] md:text-[2.5rem] font-montserrat font-black opacity-35">DEVELOPMENT</span></p>
-                <p className='w-[35rem] text-[2.3rem] md:w-[50rem] md:text-[2.5rem]  leading-[2.9rem]  md:leading-[3.5rem] font-montserrat font-black'>DATA ANALYSIS</p>
-                <p className='w-[45rem] text-[2.2rem] md:w-[60rem] md:text-[2.5rem]  leading-[2.9rem]  md:leading-[3.5rem] font-montserrat font-black'>MERN STACK <span className="text-[2.2rem] md:text-[2.5rem] font-montserrat font-black opacity-35">DEVELOPMENT</span></p>
+                <p className='w-[35rem] text-[2.2rem] md:w-[50rem] md:text-[2.5rem] opacity-80 leading-[2.9rem]  md:leading-[3.5rem] font-montserrat font-black'>SOFTWARE <span  className="text-[2.2rem] md:text-[2.5rem] font-montserrat font-black opacity-30">DEVELOPMENT</span></p>
+                <p className='w-[35rem] text-[2.3rem] md:w-[50rem] opacity-80 md:text-[2.5rem]  leading-[2.9rem]  md:leading-[3.5rem] font-montserrat font-black'>DATA ANALYSIS</p>
+                <p className='w-[45rem] text-[2.2rem] md:w-[60rem] opacity-80 md:text-[2.5rem]  leading-[2.9rem]  md:leading-[3.5rem] font-montserrat font-black'>MERN STACK <span className="text-[2.2rem] md:text-[2.5rem] font-montserrat font-black opacity-30">DEVELOPMENT</span></p>
             </div>
 
             {/* line */}
@@ -16,8 +17,8 @@ const Home = () => {
 
             {/* Sub Heading */}
             <div className=' pl-[3.3rem] md:pl-[5rem] pt-[2rem] w-[35rem] md:w-[45rem] '>
-                <p className='font-montserrat tracking-tight'>Hey ! my name is Mayank Uppal</p>
-                <p className="font-montserrat tracking-tight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo aliquam hic tempora enim labore adipisci illo porro, maiores quidem quibusdam.</p>
+                <p className='font-montserrat tracking-tight opacity-65'>Hey ! my name is Mayank Uppal</p>
+                <p className="font-montserrat tracking-tight opacity-65">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo aliquam hic tempora enim labore adipisci illo porro, maiores quidem quibusdam.</p>
             </div>
 
             {/* Button */}
