@@ -3,17 +3,17 @@ import CardW from './CardW';
 
 const WorkExp = () => {
     return (
-        <div className='mt-[7rem]'>
+        <div className='mt-[2.5rem] md:mt-[7rem]'>
             <div>
                 {/* Heading */}
-                <p className='text-[2.5rem] opacity-80 pl-[5rem] pb-[1rem] leading-[3.5rem] font-montserrat font-black'>WORK <span className='text-[2.5rem] font-montserrat font-black opacity-30'>EXPERIENCE</span></p>
+                <p className='text-[1.4rem] md:text-[2.5rem] pl-[1.5rem] md:pl-[5rem] md:pb-[1rem] leading-[3.5rem] opacity-80 font-montserrat font-black'>WORK <span className='text-[1.4rem] md:text-[2.5rem] font-montserrat font-black opacity-30'>EXPERIENCE</span></p>
                 {/* line */}
-                <div className="w-[12rem] mx-[5rem] mb-[1rem]  h-[0.1rem] bg-black"></div>
+                <div className="w-[12rem] ml-[1.6rem] md:ml-[3.9rem] md:mx-[5rem] mb-[1.4rem] bg-opacity-30 h-[0.01rem] md:h-[0.1rem] bg-black"></div>
                 {/* subheading */}
-                <p className='font-montserrat opacity-65 pl-[5rem] w-[35rem] tracking-tigh'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis minima pariatur quibusdam id aliquid nulla natus eos ullam reiciendis laborum.</p>
+                <p className='font-montserrat opacity-65 text-[0.75rem] pl-[1.5rem] w-[25rem] md:pl-[5rem] md:w-[35rem] tracking-tight'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis minima pariatur quibusdam id aliquid nulla natus eos ullam reiciendis laborum.</p>
             </div>
 
-            <div className='flex flex-col ml-[5rem] mt-[4rem] gap-12'>
+            <div className='flex flex-col ml-[2rem] mr-[2rem] md:ml-[5rem] md:mt-[4rem] gap-12'>
                 <CardW 
                 workplace=" ESH VALUE TECHNOLOGIES "
                 date="[ Jan 2024 - July 2024 ]"

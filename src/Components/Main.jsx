@@ -28,17 +28,17 @@ const Main = () => {
             <Skill/>
             </Element> */}
 
-            {/*<Element name='work'>
+            <Element name='work'>
             <WorkExp/>
             </Element>
 
-            <Element name='contact'>
+            {/* <Element name='contact'>
             <Contact/>
             </Element> 
 
             <Element name='footer'>
             <Footer/>
-            </Element>  */}
+            </Element> */}
 
         </div>
     );
