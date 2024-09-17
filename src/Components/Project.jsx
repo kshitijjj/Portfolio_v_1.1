@@ -26,7 +26,7 @@ const Project = () => {
              projectname="PORTFOLIO" 
              projecttech="[ Reactjs ]&nbsp; [ CSS ]" 
              mainimg="./portfolio.png" 
-             projectdesc="Designed and Developed a ReactJS portfolio website featuring five sections with smooth scrolling and engaging animations. While it's currently optimized for desktop, I plan to make it fully responsive across all devices in the coming days, ensuring a seamless experience for all users."
+             projectdesc="Designed and Developed a ReactJS portfolio website featuring five sections with smooth scrolling and engaging animations. While it's currently optimized for desktop, I plan to make it "
              />
             <ProjectCard 
             buttonname="Github" 

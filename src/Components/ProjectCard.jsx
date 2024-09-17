@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
             <div className='flex flex-col md:flex-row justify-center items-center'>
 
                 {/* Image */}
-                <div className='bg-white rounded-[1.6rem] justify-center items-center md:pt-0 pt-2 w-[19rem] md:w-[25rem]'>
+                <div className='bg-white rounded-[1.6rem] justify-center items-center md:mt-0 mt-4 md:w-[25rem] w-[15rem]'>
                     <img className=' rounded-[0.8rem] border-2 border-white' src={props.mainimg} alt="" srcset="" />
                 </div>
 
