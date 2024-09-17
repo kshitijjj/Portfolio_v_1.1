@@ -2,13 +2,13 @@ import React from 'react';
 
 const ProjectCard = (props) => {
     return (
-        <div className='bg-[#EAE7E7] bg-opacity-35 md:p-6 p-8 w-[45rem] rounded-[1rem] ml-[4rem] border-2'> 
+        <div className='bg-[#EAE7E7] bg-opacity-35 md:p-6 p-8 w-[24rem] md:w-[45rem] rounded-[1rem] ml-[4rem] border-2 mb-[5rem]'> 
             
             {/* Inner object div */}
-            <div className='flex  justify-center items-center'>
+            <div className='flex flex-col md:flex-row justify-center items-center'>
 
                 {/* Image */}
-                <div className='bg-white rounded-[1.6rem] justify-center items-center w-[25rem] '>
+                <div className='bg-white rounded-[1.6rem] justify-center items-center md:w-[25rem]'>
                     <img className='rounded-[0.8rem] border-2 border-white' src={props.mainimg} alt="" srcset="" />
                 </div>
 
