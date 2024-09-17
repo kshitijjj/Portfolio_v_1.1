@@ -4,7 +4,7 @@ import Lottie from 'lottie-react';
 
 const Contact = () => {
     return (
-        <div className="md:mt-[7rem] flex md:justify-between mt-[4.5rem] ">
+        <div className="md:mt-[7rem] flex flex-col-reverse md:flex-row md:justify-between mt-[4.5rem] ">
 
             <div className='flex flex-col'>
             <div>
@@ -34,12 +34,13 @@ const Contact = () => {
                 </div>
 
                 <button className=" bg-[#2229D8] opacity-75 font-bold text-[1rem] mt-[3rem]  text-center px-[3rem] py-[0.7rem] rounded-[0.4rem] text-white">Submit</button>  
+
             </form>
             </div>
 
 
+            <Lottie className='md:h-[35rem] md:pr-[6rem] md:mt-[3rem]' animationData={animation} loop={true} ></Lottie>      
             
-            {/* <Lottie className='h-[35rem] pr-[6rem] mt-[7rem]' animationData={animation} loop={true} ></Lottie>   */}          
         </div>
 
         
