@@ -39,7 +39,7 @@ const Contact = () => {
 
 
             
-            <Lottie className='h-[35rem] pr-[6rem] mt-[7rem]' animationData={animation} loop={true} ></Lottie>            
+            {/* <Lottie className='h-[35rem] pr-[6rem] mt-[7rem]' animationData={animation} loop={true} ></Lottie>   */}          
         </div>
 
         
