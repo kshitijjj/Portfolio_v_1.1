@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "my_app",
   "version": "0.1.0",
   "private": true,
@@ -47,8 +46,6 @@
       "last 1 safari version"
     ]
   },
-=======
->>>>>>> f2b15b06b4fe2605030fa0c0683650ddd53265f7
   "devDependencies": {
     "tailwindcss": "^3.4.10"
   }

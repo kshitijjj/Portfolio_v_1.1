@@ -7,6 +7,7 @@ import WorkExp from './WorkExp';
 import Headroom from "react-headroom";
 import { Element } from 'react-scroll';
 import Contact from './Contact';
+import Footer from './Footer';
 
 const Main = () => {
     return (
@@ -33,7 +34,11 @@ const Main = () => {
 
             <Element name='contact'>
             <Contact/>
-            </Element>
+            </Element> 
+
+            <Element name='footer'>
+            <Footer/>
+            </Element> 
 
         </div>
     );

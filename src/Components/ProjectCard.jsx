@@ -18,7 +18,7 @@ const ProjectCard = (props) => {
                     <p className='font-montserrat text-black font-medium opacity-50 text-[0.8rem]  tracking-tight '>{props.projecttech}</p>
                     <p className='font-montserrat opacity-65 font-normal text-[0.8rem] pt-[0.8rem] tracking-tight'>{props.projectdesc}</p>
                     <div className='flex gap-8 mt-[1.5rem]'>
-                    <button className=" items-center justify-center text-center bg-[#2229D8] opacity-75 font-bold text-[1rem]text-center px-[1.8rem] py-[0.5rem] rounded-[0.25rem] text-white">{props.buttonname} <span><img className="inline-block mb-[0.2rem] ml-[0.5rem]" src="./github (1).svg"  alt="" /></span></button>
+                    <button className=" items-center justify-center text-center bg-[#2229D8] hover:bg-[#2c32db] opacity-75 font-bold text-[1rem]text-center px-[1.8rem] py-[0.5rem] rounded-[0.25rem] text-white">{props.buttonname} <span><img className="inline-block mb-[0.2rem] ml-[0.5rem]" src="./github (1).svg"  alt="" /></span></button>
                     <button className=" border-2  border-[#2229D8] text-[#2229D8]  opacity-75 font-bold text-[1rem] text-center px-[2rem] py-[0.4rem] rounded-[0.2rem]">{props.buttonname2} <span><img className=" inline-block w-100% h-6" src={props.buttonimg2} alt="" /></span></button>
                     </div>
 

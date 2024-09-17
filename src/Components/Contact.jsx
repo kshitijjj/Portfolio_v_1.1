@@ -33,7 +33,7 @@ const Contact = () => {
                     <input className='bg-[#EAE7E7] w-[32rem] h-[10rem] bg-opacity-35 pr-12 pl-4 border-2 border-blue-100 rounded-lg' type="text" name="Enter your message" placeholder='Enter your message' id="" />
                 </div>
 
-                <button className=" bg-[#2229D8] opacity-75 font-bold text-[1rem] mt-[3rem]  text-center px-[3.5rem] py-[0.9rem] rounded-[0.4rem] text-white">Submit</button>  
+                <button className=" bg-[#2229D8] opacity-75 font-bold text-[1rem] mt-[3rem]  text-center px-[3rem] py-[0.7rem] rounded-[0.4rem] text-white">Submit</button>  
             </form>
             </div>
 

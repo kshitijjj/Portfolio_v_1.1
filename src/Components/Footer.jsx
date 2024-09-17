@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const Navbar = () => {
+const Footer = () => {
     return (
-        <div className='flex justify-between p-6 items-center bg-[#EAE7E7] backdrop-blur-lg '>
+        <div className='flex justify-between p-6 items-center bg-[#EAE7E7] bg-opacity-30 border-2 backdrop-blur-lg '>
             {/* Heading */}
             <div>
-                <Link to='home' smooth={true} duration={800} className=' font-[950] tracking-tight text-[1.25rem] font-montserrat hover:cursor-pointer'>LOREM IPSUM</Link>
+                <Link to='home' smooth={true} duration={800} className=' font-[950] tracking-tight  text-[0.9rem] md:text-[1.25rem] font-montserrat hover:cursor-pointer'>_MAYANK_UPPAL_</Link>
             </div>
 
             {/* Navbar icons big screen */}
-            <div className="flex ">
+            <div className="hidden md:block ">
             <Link
 
               to="about"
@@ -18,7 +18,6 @@ const Navbar = () => {
               duration={800}
               className="relative text-[0.9rem] font-[500] px-7 tracking-tight font-montserrat group hover:text-blue-500 hover:cursor-pointer"
             >
-            ABOUT
             <span className="absolute left-0 bottom-[-4px] w-full h-[2px] bg-blue-500 scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
 
@@ -29,7 +28,7 @@ const Navbar = () => {
               duration={800}
               className="relative text-[0.9rem] font-[500] px-7 tracking-tight font-montserrat group hover:text-blue-500 hover:cursor-pointer"
             >
-            PROJECT
+
             <span className="absolute left-0 bottom-[-4px] w-full h-[2px] bg-blue-500 scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
 
@@ -40,7 +39,7 @@ const Navbar = () => {
               duration={800}
               className="relative text-[0.9rem] font-[500] px-7 tracking-tight font-montserrat group hover:text-blue-500 hover:cursor-pointer"
             >
-            SKILLS
+
             <span className="absolute left-0 bottom-[-4px] w-full h-[2px] bg-blue-500 scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
 
@@ -51,7 +50,7 @@ const Navbar = () => {
               duration={800}
               className="relative text-[0.9rem] font-[500] px-7 tracking-tight font-montserrat group hover:text-blue-500 hover:cursor-pointer"
             >
-            WORK EXPERIENCE
+        
             <span className="absolute left-0 bottom-[-4px] w-full h-[2px] bg-blue-500 scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
 
@@ -62,7 +61,6 @@ const Navbar = () => {
               duration={800}
               className="relative text-[0.9rem] font-[500] px-7 tracking-tight font-montserrat group hover:text-blue-500 hover:cursor-pointer"
             >
-            CONTACT
             <span className="absolute left-0 bottom-[-4px] w-full h-[2px] bg-blue-500 scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
             </div>
@@ -77,4 +75,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default Footer;

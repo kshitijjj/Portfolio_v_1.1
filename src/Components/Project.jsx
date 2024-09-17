@@ -6,6 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const Project = () => {
     
     return (
+        <>
         <div className='py-[3rem] md:pt-[7rem]'>
 
             {/* heading div */}
@@ -29,26 +30,18 @@ const Project = () => {
              />
             <ProjectCard 
             buttonname="Github" 
+            buttonname2="Live" 
+            projectname="QUIZ APP UI DESIGN" 
+            projecttech="[ Figma ]" 
+            mainimg="./quiz1.png"
+            />
+            <ProjectCard 
+            buttonname="Github" 
             buttonname2="Live"
             projectname="SHORTEN LINK" 
             projecttech="[ Reactjs ]&nbsp; [ NodeJS ]&nbsp; [ MongoDB ]&nbsp; [ ExpressJS ]" 
             mainimg="./shortenlink.png"
             projectdesc="Designed and Developed a link shortening website using the MERN stack with JWT authentication. It tracks the history of shortened links, offers QR code generation, and provides the option to download the QR codes for easy sharing."
-            />
-            <ProjectCard 
-            buttonname="Github" 
-            buttonname2="Live" 
-            projectname="QUIZ GAME" 
-            projecttech="[ Reactjs ]&nbsp; [ CSS ]&nbsp; [ API ]"  
-            mainimg="./quiz.png" 
-            projectdesc="Developed a quiz website using ReactJS, powered by an API for dynamic questions. It allows users to select the difficulty level and features a 30-second timer for each question to keep the challenge engaging"
-            />
-            <ProjectCard 
-            buttonname="Github" 
-            buttonname2="Live" 
-            projectname="QUIZ APP UI DESIGN" 
-            projecttech="[ Figma ]" 
-            mainimg="./quiz1.png"
             />
             <ProjectCard 
             buttonname="Github" 
@@ -60,14 +53,29 @@ const Project = () => {
             <ProjectCard 
             buttonname="Github" 
             buttonname2="Live" 
+            projectname="QUIZ GAME" 
+            projecttech="[ Reactjs ]&nbsp; [ CSS ]&nbsp; [ API ]"  
+            mainimg="./quiz.png" 
+            projectdesc="Developed a quiz website using ReactJS, powered by an API for dynamic questions. It allows users to select the difficulty level and features a 30-second timer for each question to keep the challenge engaging"
+            />
+            
+            
+            <ProjectCard 
+            buttonname="Github" 
+            buttonname2="Live" 
             projectname="CALENDAR APP UI DESIGN"
              projecttech="[ Figma ]"
             mainimg="./calendar.png"
             />
 
             </div>
+
+            
             
         </div>
+
+
+</>
     );
 }
 
