@@ -36,9 +36,9 @@ const Main = () => {
             <Contact/>
             </Element> 
 
-            {/* <Element name='footer'>
+            <Element name='footer'>
             <Footer/>
-            </Element>  */}
+            </Element> 
 
         </div>
     );
