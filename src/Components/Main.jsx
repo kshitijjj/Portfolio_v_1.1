@@ -24,9 +24,9 @@ const Main = () => {
             <Project/>
             </Element>
 
-            <Element name='skills'>
+            {/* <Element name='skills'>
             <Skill/>
-            </Element>
+            </Element> */}
 
             <Element name='work'>
             <WorkExp/>

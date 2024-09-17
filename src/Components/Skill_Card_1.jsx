@@ -1,10 +1,11 @@
 import React from 'react';
 import SkillCard from './SkillCard';
 import Skillimg from './Skillimg';
+import Carousel from 'react-bootstrap/Carousel';
 
 const SkillCard1 = (props) => {
     return (
-                <div className='grid grid-cols-2 '>
+                <div className='flex ml-[1rem] gap-4 md:grid md:grid-cols-2 '>            
                 <Skillimg 
                 imgicon={props.image1}/>
                 <Skillimg 
