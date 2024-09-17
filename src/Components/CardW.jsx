@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardW = (props) => {
     return (
-        <div className='flex flex-col md:flex-row md:gap-[2.5rem] gap-[1.rem] '>
+        <div className='flex flex-col md:flex-row md:gap-[2.5rem] gap-[1.5rem] '>
             
             {/* image */}
             <div className='bg-[#EAE7E7] mt-2 md:mt-0 opacity-35 rounded-[0.6rem] items-center  md:w-[20rem] flex justify-center border-2  '>
