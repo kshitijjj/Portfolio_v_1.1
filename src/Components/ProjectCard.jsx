@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
         <div className='bg-[#EAE7E7] bg-opacity-35 md:p-6  w-[45rem] rounded-[1rem] md:ml-[4rem] border-2 mb-[25rem]'> 
             
             {/* Inner object div */}
-            <div className='flex flex-col md:flex-row justify-center items-center'>
+            <div className='flex flex-col md:flex-row justify-center items-center md:p-0 pl-4 pr-4 pt-4 pb-1'>
 
                 {/* Image */}
                 <div className='bg-white rounded-[1.6rem] justify-center items-center md:mt-0 mt-4 md:w-[25rem] w-[15rem]'>
@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
                 </div>
 
                 {/* Text */}
-                <div className='p-6 pt-3  text-center  md:p-6 md:text-left md:pl-[2.5rem] md:w-[35rem] w-[23rem]'>
+                <div className=' pt-2 text-center  md:p-6 md:text-left md:pl-[2.5rem] md:w-[35rem] w-[19.5rem]'>
                     <p className='opacity-80 font-montserrat text-[1.2rem]  font-extrabold md:text-2xl tracking-tight '>{props.projectname}</p>
                     <p className='font-montserrat text-black font-medium text-[0.75rem] opacity-50 md:text-[0.8rem]  tracking-tight '>{props.projecttech}</p>
                     <p className='font-montserrat opacity-65 font-normal text-[0.75rem] md:text-[0.8rem] pt-[0.8rem] tracking-tight'>{props.projectdesc}</p>
