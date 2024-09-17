@@ -20,17 +20,17 @@ const Contact = () => {
             <form className='pl-[1.5rem] md:pl-[5rem] pt-[3.2rem] pb-[2rem]'>
                 <div className='pb-7 gap-1 flex flex-col'>
                     <p className='font-montserrat font-bold text-[0.8rem] md:text-[1rem] text-opacity-85'>Name</p>
-                    <input className='bg-[#EAE7E7] w-[23rem] md:w-[32rem] bg-opacity-35 p-[0.4rem]  md:pr-12 md:pl-4 md:py-3 rounded-lg border-2 border-blue-100' type="text" name="Enter your name" placeholder='Enter your name' id=""  />
+                    <input className='bg-[#EAE7E7] w-[20rem] md:w-[32rem] bg-opacity-35 p-[0.4rem] py-2  md:pr-12 md:pl-4 md:py-3 rounded-lg border-2 border-blue-100' type="text" name="Enter your name" placeholder='Enter your name' id=""  />
                 </div>
  
                 <div className='pb-7 gap-1 flex flex-col'>
                     <p className='font-montserrat font-bold text-[0.8rem] md:text-[1rem] text-opacity-85'>Email</p>
-                    <input className='bg-[#EAE7E7] w-[23rem] md:w-[32rem] bg-opacity-35 p-[0.4rem]  md:pr-12 md:pl-4 md:py-3 rounded-lg border-2 border-blue-100' type="email" name="Enter your email" placeholder='Enter your mail' id="" />
+                    <input className='bg-[#EAE7E7] w-[20rem] md:w-[32rem] bg-opacity-35 p-[0.4rem]  py-2  md:pr-12 md:pl-4 md:py-3 rounded-lg border-2 border-blue-100' type="email" name="Enter your email" placeholder='Enter your mail' id="" />
                 </div>
 
                 <div className='gap-1 flex flex-col '>
                     <p className='font-montserrat font-bold text-[0.8rem] md:text-[1rem] text-opacity-85'>Message</p>
-                    <input className='bg-[#EAE7E7] w-[23rem] md:w-[32rem] bg-opacity-35 p-[0.4rem]  md:pr-12 md:pl-4 md:py-3 rounded-lg border-2 border-blue-100' type="text" name="Enter your message" placeholder='Enter your message' id="" />
+                    <input className='bg-[#EAE7E7] w-[20rem] md:w-[32rem] bg-opacity-35 p-[0.4rem]  py-2  md:pr-12 md:pl-4 md:py-3 rounded-lg border-2 border-blue-100' type="text" name="Enter your message" placeholder='Enter your message' id="" />
                 </div>
 
                 <button className=" bg-[#2229D8] opacity-75 font-bold text-[1rem] mt-[3rem]  text-center px-[3rem] py-[0.7rem] rounded-[0.4rem] text-white">Submit</button>  
