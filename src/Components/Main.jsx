@@ -24,11 +24,11 @@ const Main = () => {
             <Project/>
             </Element>
 
-            {/*<Element name='skills'>
+            <Element name='skills'>
             <Skill/>
             </Element>
 
-            <Element name='work'>
+            {/*<Element name='work'>
             <WorkExp/>
             </Element>
 
