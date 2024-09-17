@@ -42,7 +42,7 @@ const Project = () => {
             projectname="SHORTEN LINK" 
             projecttech="[ Reactjs ]&nbsp; [ NodeJS ]&nbsp; [ MongoDB ]&nbsp; [ ExpressJS ]" 
             mainimg="./shortenlink.png"
-            projectdesc="Designed and Developed a link shortening website using the MERN stack with JWT authentication. It tracks the history of shortened links, offers QR code generation, and provides the option to download the QR codes for easy sharing."
+            projectdesc="Designed and Developed a link shortening website using the MERN stack with JWT authentication. It tracks the history of shortened links, offers QR code generatio"
             />
             <ProjectCard 
             buttonname="Github" 
@@ -57,7 +57,7 @@ const Project = () => {
             projectname="QUIZ GAME" 
             projecttech="[ Reactjs ]&nbsp; [ CSS ]&nbsp; [ API ]"  
             mainimg="./quiz.png" 
-            projectdesc="Developed a quiz website using ReactJS, powered by an API for dynamic questions. It allows users to select the difficulty level and features a 30-second timer for each question to keep the challenge engaging"
+            projectdesc="Developed a quiz website using ReactJS, powered by an API for dynamic questions. It allows users to select the difficulty level and features a 30-second timer"
             />
             
             
