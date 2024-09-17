@@ -13,7 +13,7 @@ const WorkExp = () => {
                 <p className='font-montserrat opacity-65 text-[0.75rem] pl-[1.5rem] w-[25rem] md:pl-[5rem] md:w-[35rem] tracking-tight'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis minima pariatur quibusdam id aliquid nulla natus eos ullam reiciendis laborum.</p>
             </div>
 
-            <div className='flex flex-col ml-[2rem] mr-[2rem] md:ml-[5rem] md:mt-[4rem] gap-12'>
+            <div className='flex flex-col ml-[2rem] mr-[2rem] md:ml-[5rem] md:mt-[4rem] mt-[3rem] gap-12'>
                 <CardW 
                 workplace=" ESH VALUE TECHNOLOGIES "
                 date="[ Jan 2024 - July 2024 ]"
