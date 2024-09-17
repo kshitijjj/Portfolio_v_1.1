@@ -19,7 +19,7 @@ const Project = () => {
                 <p className='font-montserrat opacity-65 text-[0.75rem] pl-[1.5rem] w-[25rem] md:pl-[5rem] md:w-[35rem] tracking-tight'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis minima pariatur quibusdam id aliquid nulla natus eos ullam reiciendis laborum.</p>
             </div>
 
-            <div id='carousel' className='flex ml-[1rem] gap-4 mt-[3.5rem] overflow-x-scroll scroll-smooth md:scrollbar-hide '>
+            <div id='carousel' className='flex ml-[1rem] gap-4 mt-[3.5rem] overflow-x-scroll scroll-smooth scrollbar-hide '>
             <ProjectCard 
             buttonname="Github" 
             buttonname2="Live" 
