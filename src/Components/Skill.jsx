@@ -32,18 +32,18 @@ const Skill = (props) => {
 
             <div>
                 {/* Heading */}
-                <p className='text-[2.5rem] pl-[5rem] pb-[1rem] leading-[3.5rem] font-montserrat font-black opacity-80'>DIFFERENT <span className='text-[2.5rem] font-montserrat font-black opacity-30'>SKILLS</span></p>
+                <p className='text-[1.4rem] md:text-[2.5rem] pl-[1.5rem] md:pl-[5rem] md:pb-[1rem] leading-[3.5rem] opacity-80 font-montserrat font-black'>DIFFERENT <span className='text-[1.4rem] md:text-[2.5rem] font-montserrat font-black opacity-30'>SKILLS</span></p>
                 {/* line */}
-                <div className="w-[12rem] mx-[5rem] mb-[1rem]  h-[0.1rem] bg-black"></div>
+                <div className="w-[12rem] ml-[1.6rem] md:ml-[3.9rem] md:mx-[5rem] mb-[1.4rem] bg-opacity-30 h-[0.01rem] md:h-[0.1rem] bg-black"></div>
                 {/* subheading */}
-                <p className='font-montserrat opacity-65 pl-[5rem] w-[35rem] tracking-tigh'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis minima pariatur quibusdam id aliquid nulla natus eos ullam reiciendis laborum.</p>
+                <p className='font-montserrat opacity-65 text-[0.75rem] pl-[1.5rem] w-[25rem] md:pl-[5rem] md:w-[35rem] tracking-tight'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis minima pariatur quibusdam id aliquid nulla natus eos ullam reiciendis laborum.</p>
             </div>
 
             {/* Categories */}
 
-            <div className='flex justify-between'>
+            <div className='flex flex-col md:justify-between'>
 
-            <div className='ml-[4rem] mt-[3rem]'>
+            <div className='ml-[2.6rem] mt-[2rem] md:ml-[4rem] md:mt-[3rem]'>
                 <SkillCard 
                 buttonicon={show1?'./right.svg':'./left.svg'}
                 heading='FRONT END DEV'
