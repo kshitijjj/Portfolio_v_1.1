@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardW = (props) => {
     return (
-        <div className='flex flex-col md:flex-row md:gap-[2.5rem] '>
+        <div className='flex flex-col md:flex-row md:gap-[2.5rem] gap-[1.rem] '>
             
             {/* image */}
             <div className='bg-[#EAE7E7] mt-2 md:mt-0 opacity-35 rounded-[0.6rem] items-center  md:w-[20rem] flex justify-center border-2  '>
@@ -27,13 +27,13 @@ const CardW = (props) => {
                     </ul>
 
                     <div className='flex gap-4 md:gap-8 mt-[1.5rem] justify-center md:justify-start w-full'>
-            <button className="bg-[#2229D8]  text-white border-2 hover:border-[#2229D8] opacity-75 font-bold text-[1rem] text-center px-[2rem] py-[0.5rem] rounded-[0.4rem] flex justify-center items-center">
-                LinkedIn
-                <span>
-                    <img className="inline-block w-[15px] h-[15px] mb-[0.2rem] ml-[0.5rem]" src="./redirect.svg" alt="" />
-                </span>
-            </button>
-        </div>
+                        <button className="bg-[#2229D8]  text-white border-2 hover:border-[#2229D8] opacity-75 font-bold text-[1rem] text-center px-[2rem] py-[0.5rem] rounded-[0.4rem] flex justify-center items-center">
+                        LinkedIn
+                            <span>
+                                <img className="inline-block w-[15px] h-[15px] mb-[0.2rem] ml-[0.5rem]" src="./redirect.svg" alt="" />
+                            </span>
+                        </button>
+                    </div>
             </div>
 
         </div>
