@@ -20,11 +20,11 @@ const Main = () => {
             <Home/>
             </Element>
            
-           {/*  <Element name='project'>
+           {/* <Element name='project'>
             <Project/>
-            </Element>
+            </Element> */}
 
-            <Element name='skills'>
+            {/*<Element name='skills'>
             <Skill/>
             </Element>
 
