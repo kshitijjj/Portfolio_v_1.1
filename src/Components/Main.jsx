@@ -32,13 +32,13 @@ const Main = () => {
             <WorkExp/>
             </Element>
 
-            {/* <Element name='contact'>
+            <Element name='contact'>
             <Contact/>
             </Element> 
 
-            <Element name='footer'>
+            {/* <Element name='footer'>
             <Footer/>
-            </Element> */}
+            </Element>  */}
 
         </div>
     );
