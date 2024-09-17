@@ -7,16 +7,16 @@ const Project = () => {
     
     return (
         <>
-        <div className='py-[3rem] md:pt-[7rem]'>
+        <div className='py-[1rem] md:py-[3rem] md:pt-[7rem]'>
 
             {/* heading div */}
             <div>
                 {/* Heading */}
-                <p className='w-[30rem] text-[2.2rem] md:w-[60rem] md:text-[2.5rem] pl-[3.3rem] md:pl-[5rem] pb-[1.2rem] md:pb-[1rem] leading-[3.5rem] opacity-80 font-montserrat font-black'>CREATIVE <span className='text-[2.2rem] md:text-[2.5rem] font-montserrat font-black opacity-30'>PROJECTS</span></p>
+                <p className='text-[1.4rem] md:text-[2.5rem] pl-[1.5rem] md:pl-[5rem] md:pb-[1rem] leading-[3.5rem] opacity-80 font-montserrat font-black'>CREATIVE <span className='text-[1.4rem] md:text-[2.5rem] font-montserrat font-black opacity-30'>PROJECTS</span></p>
                 {/* line */}
-                <div className="w-[12rem] ml-[3.9rem] md:mx-[5rem] mb-[1.4rem]   h-[0.1rem] bg-black"></div>
+                <div className="w-[12rem] ml-[1.6rem] md:ml-[3.9rem] md:mx-[5rem] mb-[1.4rem] bg-opacity-30 h-[0.01rem] md:h-[0.1rem] bg-black"></div>
                 {/* subheading */}
-                <p className='font-montserrat pl-[3.9rem] md:pl-[5rem] w-[35rem] tracking-tigh opacity-65'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis minima pariatur quibusdam id aliquid nulla natus eos ullam reiciendis laborum.</p>
+                <p className='font-montserrat opacity-65 text-[0.75rem] pl-[1.5rem] w-[25rem] md:pl-[5rem] md:w-[35rem] tracking-tight'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis minima pariatur quibusdam id aliquid nulla natus eos ullam reiciendis laborum.</p>
             </div>
 
             <div id='carousel' className='flex mt-[3.5rem] overflow-x-scroll scroll-smooth scrollbar-hide '>
