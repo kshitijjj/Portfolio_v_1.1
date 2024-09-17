@@ -24,7 +24,7 @@ const Home = () => {
             </div>
 
             {/* Button */}
-            <button className=" bg-[#2229D8] opacity-75 font-bold text-[0.8rem] md:text-[1rem] text-center px-[1.2rem] py-[0.4rem] md:px-10 md:py-[0.65rem] rounded-[0.4rem] ml-[1.6rem] md:ml-[5rem] mt-[1.6rem] md:mt-[2rem] text-white">Resume <span><img className=" inline-block w-100% h-6" src="./download_icon.png" alt="" /></span></button>
+            <button className=" bg-[#2229D8] opacity-75 font-bold text-[0.8rem] md:text-[1rem] text-center px-[1.5rem] py-[0.6rem] md:px-10 md:py-[0.65rem] rounded-[0.4rem] ml-[1.6rem] md:ml-[5rem] mt-[1.6rem] md:mt-[2rem] text-white">Resume <span><img className=" inline-block w-100% h-6" src="./download_icon.png" alt="" /></span></button>
         </div>
     );
 }
