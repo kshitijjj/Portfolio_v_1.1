@@ -20,7 +20,7 @@ const Main = () => {
             <Home/>
             </Element>
            
-            <Element name='project'>
+           {/*  <Element name='project'>
             <Project/>
             </Element>
 
@@ -38,7 +38,7 @@ const Main = () => {
 
             <Element name='footer'>
             <Footer/>
-            </Element> 
+            </Element>  */}
 
         </div>
     );

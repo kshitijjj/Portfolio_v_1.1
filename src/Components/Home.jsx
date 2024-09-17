@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className='py-[2rem] md:pt-[2.8rem]'>
             {/* Heading */}
-            <div className='pl-[1.5rem] md:px-[5rem] pb-[1.5rem] mt-[2rem]'>
+            <div className=' pl-[1.5rem] md:px-[5rem] pb-[1.5rem] mt-[2rem]'>
                 <p className='text-[1.4rem] md:w-[50rem] md:text-[2.5rem] opacity-80  leading-[2.1rem]  md:leading-[3.5rem] font-montserrat font-black'>SOFTWARE <span  className="text-[1.4rem] md:text-[2.5rem] font-montserrat font-black opacity-30">DEVELOPMENT</span></p>
                 <p className='text-[1.4rem] md:w-[50rem] opacity-80 md:text-[2.5rem]  leading-[2.1rem]  md:leading-[3.5rem] font-montserrat font-black'>DATA ANALYSIS</p>
                 <p className='text-[1.4rem] md:w-[60rem] opacity-80 md:text-[2.5rem]  leading-[2.1rem]  md:leading-[3.5rem] font-montserrat font-black'>MERN STACK <span className="text-[1.4rem] md:text-[2.5rem] font-montserrat font-black opacity-30">DEVELOPMENT</span></p>
