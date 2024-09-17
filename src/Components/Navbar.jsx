@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className='flex justify-between p-6 items-center bg-[#EAE7E7] bg-opacity-30 border-2 backdrop-blur-lg '>
             {/* Heading */}
             <div>
-                <Link to='home' smooth={true} duration={800} className=' font-[950] tracking-tight  text-[0.9rem] md:text-[1.25rem] font-montserrat hover:cursor-pointer'>_MAYANK_UPPAL_</Link>
+                <Link to='home' smooth={true} duration={800} className=' font-[950] tracking-tight  text-[0.9rem] md:text-[1.25rem] font-montserrat hover:cursor-pointer'>_MAYANK UPPAL_</Link>
             </div>
 
             {/* Navbar icons big screen */}
