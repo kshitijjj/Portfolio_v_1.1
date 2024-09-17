@@ -20,6 +20,13 @@ const Project = () => {
             </div>
 
             <div id='carousel' className='flex ml-[1.5rem] gap-4 mt-[3.5rem] overflow-x-scroll scroll-smooth md:scrollbar-hide '>
+            <ProjectCard 
+            buttonname="Github" 
+            buttonname2="Live" 
+            projectname="QUIZ APP UI DESIGN" 
+            projecttech="[ Figma ]" 
+            mainimg="./quiz1.png"
+            />
             <ProjectCard
              buttonname="Github" 
              buttonname2="Live"
@@ -28,13 +35,7 @@ const Project = () => {
              mainimg="./portfolio.png" 
              projectdesc="Designed and Developed a ReactJS portfolio website featuring five sections with smooth scrolling and engaging animations. While it's currently optimized for desktop, I plan to make it "
              />
-            <ProjectCard 
-            buttonname="Github" 
-            buttonname2="Live" 
-            projectname="QUIZ APP UI DESIGN" 
-            projecttech="[ Figma ]" 
-            mainimg="./quiz1.png"
-            />
+            
             <ProjectCard 
             buttonname="Github" 
             buttonname2="Live"
