@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = (props) => {
     return (
-        <div className='bg-[#EAE7E7] bg-opacity-35 md:p-6  w-[45rem] rounded-[1rem] md:ml-[4rem] border-2 '> 
+        <div className='bg-[#EAE7E7] bg-opacity-30 md:bg-opacity-35 md:p-6  w-[45rem] rounded-[1rem] md:ml-[4rem] border-2 '> 
             
             {/* Inner object div */}
             <div className='flex flex-col md:flex-row justify-center items-center md:p-0 pl-3 pr-3 pt-3 pb-1'>
