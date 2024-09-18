@@ -23,7 +23,7 @@ const Navbar = () => {
     }
     return (
 
-        <div className='flex md:justify-between items-center justify-between pr-[2rem] md:p-6 md:items-center md:bg-[#EAE7E7] md:bg-opacity-30 border-2 backdrop-blur-lg '>
+        <div className='flex md:justify-between items-center justify-between pr-[1.2rem] md:p-6 md:items-center md:bg-[#EAE7E7] md:bg-opacity-30 border-2 backdrop-blur-lg '>
             {/* Heading */}
             <div className='p-3 md:p-0'>
                 <Link to='home' smooth={true} duration={800} className=' font-[950] tracking-tight  text-[0.9rem] md:text-[1.25rem] font-montserrat hover:cursor-pointer'>_MAYANK UPPAL_</Link>
