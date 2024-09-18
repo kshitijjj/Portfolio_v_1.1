@@ -10,7 +10,7 @@ const CardW = (props) => {
             </div>
 
             {/* Written part */}
-            <div className='p-4  md:p-8 md:w-[50rem] md:bg-[#EAE7E7] bg-opacity-35 border-2  rounded-lg'>
+            <div className='p-4  md:p-8 md:w-[50rem] md:bg-[#EAE7E7] md:bg-opacity-35 border-2  rounded-lg'>
 
                     <div className='flex justify-between'>
                     <p className='font-montserrat  text-[1.1rem] font-extrabold md:text-2xl tracking-tight '>{props.workplace}</p>
