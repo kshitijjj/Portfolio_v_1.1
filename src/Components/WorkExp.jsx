@@ -10,7 +10,7 @@ const WorkExp = () => {
                 {/* line */}
                 <div className="w-[12rem] ml-[1.6rem] md:ml-[3.9rem] md:mx-[5rem] mb-[1.4rem] bg-opacity-30 h-[0.01rem] md:h-[0.1rem] bg-black"></div>
                 {/* subheading */}
-                <p className='font-montserrat opacity-65 text-[0.75rem] pl-[1.5rem] w-[25rem] md:pl-[5rem] md:w-[35rem] tracking-tight'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis minima pariatur quibusdam id aliquid nulla natus eos ullam reiciendis laborum.</p>
+                <p className='font-montserrat opacity-65 text-[0.75rem] pr-[1rem] md:pr-0 pl-[1.5rem] w-[25rem] md:pl-[5rem] md:w-[35rem] tracking-tight'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis minima pariatur quibusdam id aliquid nulla natus eos ullam reiciendis laborum.</p>
             </div>
 
             <div className='flex flex-col ml-[2rem] mr-[2rem] md:ml-[5rem] md:mt-[4rem] mt-[3rem] gap-12'>

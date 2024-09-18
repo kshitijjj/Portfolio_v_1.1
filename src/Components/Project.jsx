@@ -26,7 +26,27 @@ const Project = () => {
             projectname="QUIZ APP UI DESIGN" 
             projecttech="[ Figma ]" 
             mainimg="./quiz1.png"
+            projectdesc='lorem djcbd dcdcd dnd dkdkcd kd kdkd ckd kdc dckdcdckdbc cdbcdbdbcd cbdcdkc djcdkbcd kdbkdnck dc dcdk ckd kd ckdbd k dc dc dbcdckd cjdbcjd cjd jdcbdc dc dj cd cjd cj d djc djc djcjdcd'
             />
+
+            <ProjectCard 
+            buttonname="Github" 
+            buttonname2="Live"
+            projectname="SHORTEN LINK" 
+            projecttech="[ Reactjs ]&nbsp; [ NodeJS ]&nbsp; [ MongoDB ]&nbsp; [ ExpressJS ]" 
+            mainimg="./shortenlink.png"
+            projectdesc="Designed and Developed a link shortening website using the MERN stack with JWT authentication. It tracks the history of shortened links, offers QR code generatio"
+            />
+
+            <ProjectCard 
+            buttonname="Github" 
+            buttonname2="Live" 
+            projectname="FITNESS APP UI DESIGN" 
+            projecttech="[ Figma ]" 
+            mainimg="./fitness (1).png"
+             projectdesc='lorem djcbd dcdcd dnd dkdkcd kd kdkd ckd kdc dckdcdckdbc cdbcdbdbcd cbdcdkc djcdkbcd kdbkdnck dc dcdk ckd kd ckdbd k dc dc dbcdckd cjdbcjd cjd jdcbdc dc dj cd cjd cj d djc djc djcjdcd'
+            />
+
             <ProjectCard
              buttonname="Github" 
              buttonname2="Live"
@@ -38,26 +58,11 @@ const Project = () => {
             
             <ProjectCard 
             buttonname="Github" 
-            buttonname2="Live"
-            projectname="SHORTEN LINK" 
-            projecttech="[ Reactjs ]&nbsp; [ NodeJS ]&nbsp; [ MongoDB ]&nbsp; [ ExpressJS ]" 
-            mainimg="./shortenlink.png"
-            projectdesc="Designed and Developed a link shortening website using the MERN stack with JWT authentication. It tracks the history of shortened links, offers QR code generatio"
-            />
-            <ProjectCard 
-            buttonname="Github" 
-            buttonname2="Live" 
-            projectname="FITNESS APP UI DESIGN" 
-            projecttech="[ Figma ]" 
-            mainimg="./fitness (1).png"
-            />
-            <ProjectCard 
-            buttonname="Github" 
             buttonname2="Live" 
             projectname="QUIZ GAME" 
             projecttech="[ Reactjs ]&nbsp; [ CSS ]&nbsp; [ API ]"  
             mainimg="./quiz.png" 
-            projectdesc="Developed a quiz website using ReactJS, powered by an API for dynamic questions. It allows users to select the difficulty level and features a 30-second timer"
+            projectdesc="Developed a quiz website using ReactJS, powered by an API for dynamic questions. It allows users to select the difficulty level and features a 30-second timer cbb cfbvifv ffvfv fvkfvif"
             />
             
             
@@ -67,6 +72,7 @@ const Project = () => {
             projectname="CALENDAR APP UI DESIGN"
              projecttech="[ Figma ]"
             mainimg="./calendar.png"
+             projectdesc='lorem djcbd dcdcd dnd dkdkcd kd kdkd ckd kdc dckdcdckdbc cdbcdbdbcd cbdcdkc djcdkbcd kdbkdnck dc dcdk ckd kd ckdbd k dc dc dbcdckd cjdbcjd cjd jdcbdc dc dj cd cjd cj d djc djc djcjdcd'
             />
 
             </div>

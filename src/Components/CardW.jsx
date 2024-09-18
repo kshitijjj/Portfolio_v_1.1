@@ -14,7 +14,10 @@ const CardW = (props) => {
 
                     <div className='flex justify-between'>
                     <p className='font-montserrat  text-[1.1rem] font-extrabold md:text-2xl tracking-tight '>{props.workplace}</p>
-                    <p className='font-montserrat opacity-65 text-[0.75rem] md:text-[0.8rem] tracking-tight w-[10rem]'>{props.date}</p>
+                    <p className='font-montserrat opacity-65 text-[0.75rem] md:text-[0.8rem] tracking-tight w-[10rem] whitespace-nowrap'>
+                    {props.date}
+                    </p>
+
                     </div>
                     
                     <p className='font-montserrat opacity-65 text-[0.8rem] tracking-tight '>{props.workrole}</p>

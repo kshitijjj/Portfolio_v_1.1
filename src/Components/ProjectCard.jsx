@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
         <div className=' md:bg-[#EAE7E7] bg-opacity-30 md:bg-opacity-35 md:p-6  w-[45rem] rounded-[1rem] md:ml-[4rem] border-2 '> 
             
             {/* Inner object div */}
-            <div className='flex flex-col md:flex-row justify-center items-center md:p-0 pl-3 pr-3 pt-3 pb-1'>
+            <div className='flex flex-col md:flex-row justify-center items-center md:p-0 pl-3 pr-3 pt-3 pb-[1.5rem]'>
 
                 {/* Image */}
                 <div className='md:bg-white rounded-[1.6rem] justify-center items-center md:mt-0 mt-4 md:w-[25rem] w-[15rem]'>

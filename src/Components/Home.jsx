@@ -19,7 +19,7 @@ const Home = () => {
 
             {/* Sub Heading */}
             <div className=' pl-[1.6rem] pt-[1rem] md:pl-[5rem] md:pt-[1.6rem]  '>
-                <p className=' text-[0.75rem] md:text-[1rem] font-montserrat tracking-tight opacity-65'>Hey! my name is Mayank Uppal</p>
+                <p className=' text-[0.75rem] md:text-[1rem] font-montserrat tracking-tight opacity-65 '>Hey! my name is Mayank Uppal</p>
                 <p className=" text-[0.75rem] md:text-[1rem] font-montserrat tracking-tight opacity-65">I am a final year undergraduate student at PEC, Chandigarh persuing B.Tech in Electrical Engineering </p>
             </div>
 
